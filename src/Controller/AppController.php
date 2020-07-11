@@ -27,7 +27,10 @@ use Cake\Event\Event;
  */
 class AppController extends Controller
 {
-
+    public function beforeFilter(Event $event)
+    {
+        $this->viewBuilder()->setLayout('main'); //admin is our new layout name
+    }
     /**
      * Initialization hook method.
      *
