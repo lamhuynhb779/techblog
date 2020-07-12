@@ -1,0 +1,8 @@
+msgid "DS"
+msgstr "/"
+
+msgid "newest"
+msgstr "NEWEST"
+
+msgid "series"
+msgstr "SERIES"

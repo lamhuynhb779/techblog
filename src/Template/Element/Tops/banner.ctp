@@ -1,3 +1,5 @@
-<?php if ($this->request->getRequestTarget() == '/'): ?>
-<div id="banner"></div>
+<?php if ($this->request->getRequestTarget() == __('DS')): ?>
+
+    <div id="banner"></div>
+
 <?php endif;?>

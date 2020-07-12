@@ -1,10 +1,10 @@
 <div id="menubar">
 	<ul id="menu">
 		<li class="selected">
-			<?=$this->Html->link('Home', ['controller' => 'tops', 'action' => 'top'])?>
+			<?=$this->Html->link(__('newest'), ['controller' => 'tops', 'action' => 'top'])?>
 		</li>
 		<li>
-			<?=$this->Html->link('Examples', ['controller' => 'tops', 'action' => 'example'])?>
+			<?=$this->Html->link(__('series'), ['controller' => 'tops', 'action' => 'example'])?>
 		</li>
 		<li>
 			<?=$this->Html->link('A Page', ['controller' => 'tops', 'action' => 'onePage'])?>
