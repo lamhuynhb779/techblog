@@ -2,6 +2,8 @@
 
 namespace App\Controller;
 
+use App\Constant\Constant;
+
 class TopsController extends AppController
 {
     /**
@@ -11,7 +13,7 @@ class TopsController extends AppController
      */
     public function top()
     {
-        $this->set('top', true);
+
     }
 
     /**
